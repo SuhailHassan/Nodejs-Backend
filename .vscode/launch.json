@@ -1,0 +1,17 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug concepts-covered",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/server.ts",
+      "runtimeExecutable": "tsx",
+      "runtimeArgs": ["watch"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
